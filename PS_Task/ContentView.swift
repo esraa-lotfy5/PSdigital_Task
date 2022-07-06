@@ -2,20 +2,28 @@
 //  ContentView.swift
 //  PS_Task
 //
-//  Created by Esraa Lotfy  on 06/07/2022.
+//  Created by Esraa Lotfy  on 21/06/2022.
 //
 
 import SwiftUI
+import CoreData
 
 struct ContentView: View {
+    @Environment(\.managedObjectContext) private var viewContext
+    @ObservedObject var homeViewModel : HomeViewModel = HomeViewModel()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+        NavigationView {
+            HomeScreen()
+        }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+private let itemFormatter: DateFormatter = {
+    let formatter = DateFormatter()
+    formatter.dateStyle = .short
+    formatter.timeStyle = .medium
+    return formatter
+}()
 }
+
+

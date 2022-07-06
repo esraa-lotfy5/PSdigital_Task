@@ -11,6 +11,36 @@
 		095CB7AB28761A9A002598A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7AA28761A9A002598A8 /* ContentView.swift */; };
 		095CB7AD28761A9F002598A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095CB7AC28761A9F002598A8 /* Assets.xcassets */; };
 		095CB7B028761A9F002598A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095CB7AF28761A9F002598A8 /* Preview Assets.xcassets */; };
+		095CB7BF28761CAC002598A8 /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7BE28761CAC002598A8 /* NetworkAPI.swift */; };
+		095CB7C128761CBD002598A8 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7C028761CBD002598A8 /* NetworkRequest.swift */; };
+		095CB7C528761CDC002598A8 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7C428761CDC002598A8 /* BaseAPI.swift */; };
+		095CB7C728761CEA002598A8 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7C628761CEA002598A8 /* TargetType.swift */; };
+		095CB7CA28761D18002598A8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7C928761D18002598A8 /* Constants.swift */; };
+		095CB7D228761E90002598A8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7D128761E90002598A8 /* Category.swift */; };
+		095CB7D428761E9E002598A8 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7D328761E9E002598A8 /* CategoryItem.swift */; };
+		095CB7D628761EAC002598A8 /* Combo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7D528761EAC002598A8 /* Combo.swift */; };
+		095CB7D828761EB7002598A8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7D728761EB7002598A8 /* Product.swift */; };
+		095CB7DA28761EC4002598A8 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7D928761EC4002598A8 /* DummyData.swift */; };
+		095CB7E228761FB3002598A8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7E128761FB3002598A8 /* HomeViewModel.swift */; };
+		095CB7E428761FC6002598A8 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7E328761FC6002598A8 /* CategoryCell.swift */; };
+		095CB7E628761FD8002598A8 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7E528761FD8002598A8 /* HomeScreen.swift */; };
+		095CB7E828761FE9002598A8 /* CategoryItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7E728761FE9002598A8 /* CategoryItemsCell.swift */; };
+		095CB7EB287620CA002598A8 /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 095CB7EA287620CA002598A8 /* QGrid */; };
+		095CB7ED28762181002598A8 /* ProductDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7EC28762181002598A8 /* ProductDetailsViewModel.swift */; };
+		095CB7EF287621A2002598A8 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7EE287621A2002598A8 /* Cell.swift */; };
+		095CB7F1287621C3002598A8 /* CellWithRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7F0287621C3002598A8 /* CellWithRadioButton.swift */; };
+		095CB7F3287621EB002598A8 /* ChickenSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7F2287621EB002598A8 /* ChickenSelection.swift */; };
+		095CB7F528762200002598A8 /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7F4287621FF002598A8 /* Drinks.swift */; };
+		095CB7F728762211002598A8 /* IngrediansCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7F628762211002598A8 /* IngrediansCell.swift */; };
+		095CB7F92876222B002598A8 /* MealSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7F82876222B002598A8 /* MealSizes.swift */; };
+		095CB7FB28762246002598A8 /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7FA28762246002598A8 /* ProductDetails.swift */; };
+		095CB7FD2876225C002598A8 /* ProductInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7FC2876225C002598A8 /* ProductInfo.swift */; };
+		095CB7FF2876226E002598A8 /* QuantityStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB7FE2876226E002598A8 /* QuantityStepper.swift */; };
+		095CB8012876228C002598A8 /* Sandwiches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB8002876228C002598A8 /* Sandwiches.swift */; };
+		095CB8032876229D002598A8 /* SandwichesNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB8022876229D002598A8 /* SandwichesNavigationBar.swift */; };
+		095CB805287622B7002598A8 /* Sauces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB804287622B7002598A8 /* Sauces.swift */; };
+		095CB807287622C9002598A8 /* Sides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095CB806287622C9002598A8 /* Sides.swift */; };
+		9158BE4BB1DD395BD035D993 /* Pods_PS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62147904FD51EADFC871E1A6 /* Pods_PS_Task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +49,38 @@
 		095CB7AA28761A9A002598A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		095CB7AC28761A9F002598A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		095CB7AF28761A9F002598A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		095CB7BE28761CAC002598A8 /* NetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
+		095CB7C028761CBD002598A8 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		095CB7C428761CDC002598A8 /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		095CB7C628761CEA002598A8 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		095CB7C928761D18002598A8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		095CB7D128761E90002598A8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		095CB7D328761E9E002598A8 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		095CB7D528761EAC002598A8 /* Combo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combo.swift; sourceTree = "<group>"; };
+		095CB7D728761EB7002598A8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		095CB7D928761EC4002598A8 /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		095CB7E128761FB3002598A8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		095CB7E328761FC6002598A8 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		095CB7E528761FD8002598A8 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		095CB7E728761FE9002598A8 /* CategoryItemsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemsCell.swift; sourceTree = "<group>"; };
+		095CB7EC28762181002598A8 /* ProductDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewModel.swift; sourceTree = "<group>"; };
+		095CB7EE287621A2002598A8 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		095CB7F0287621C3002598A8 /* CellWithRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWithRadioButton.swift; sourceTree = "<group>"; };
+		095CB7F2287621EB002598A8 /* ChickenSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenSelection.swift; sourceTree = "<group>"; };
+		095CB7F4287621FF002598A8 /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		095CB7F628762211002598A8 /* IngrediansCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngrediansCell.swift; sourceTree = "<group>"; };
+		095CB7F82876222B002598A8 /* MealSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSizes.swift; sourceTree = "<group>"; };
+		095CB7FA28762246002598A8 /* ProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
+		095CB7FC2876225C002598A8 /* ProductInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfo.swift; sourceTree = "<group>"; };
+		095CB7FE2876226E002598A8 /* QuantityStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityStepper.swift; sourceTree = "<group>"; };
+		095CB8002876228C002598A8 /* Sandwiches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwiches.swift; sourceTree = "<group>"; };
+		095CB8022876229D002598A8 /* SandwichesNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichesNavigationBar.swift; sourceTree = "<group>"; };
+		095CB804287622B7002598A8 /* Sauces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sauces.swift; sourceTree = "<group>"; };
+		095CB806287622C9002598A8 /* Sides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sides.swift; sourceTree = "<group>"; };
+		095CB808287623FE002598A8 /* PS-Task-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PS-Task-Info.plist"; sourceTree = SOURCE_ROOT; };
+		62147904FD51EADFC871E1A6 /* Pods_PS_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC89FA810D9BFC6D7568AA5 /* Pods-PS_Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS_Task.debug.xcconfig"; path = "Target Support Files/Pods-PS_Task/Pods-PS_Task.debug.xcconfig"; sourceTree = "<group>"; };
+		A07843AE0C5E8D4A80E0658D /* Pods-PS_Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS_Task.release.xcconfig"; path = "Target Support Files/Pods-PS_Task/Pods-PS_Task.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095CB7EB287620CA002598A8 /* QGrid in Frameworks */,
+				9158BE4BB1DD395BD035D993 /* Pods_PS_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +101,8 @@
 			children = (
 				095CB7A728761A9A002598A8 /* PS_Task */,
 				095CB7A628761A9A002598A8 /* Products */,
+				17B30730B831B081DF03884F /* Pods */,
+				C13055E2A4BC7EA454CA802C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +117,11 @@
 		095CB7A728761A9A002598A8 /* PS_Task */ = {
 			isa = PBXGroup;
 			children = (
+				095CB808287623FE002598A8 /* PS-Task-Info.plist */,
+				095CB7CC28761DAC002598A8 /* Module */,
+				095CB7CB28761DA4002598A8 /* Model */,
+				095CB7C828761CF4002598A8 /* Utils */,
+				095CB7BA28761C78002598A8 /* Services */,
 				095CB7A828761A9A002598A8 /* PS_TaskApp.swift */,
 				095CB7AA28761A9A002598A8 /* ContentView.swift */,
 				095CB7AC28761A9F002598A8 /* Assets.xcassets */,
@@ -67,6 +138,159 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		095CB7BA28761C78002598A8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7BB28761C81002598A8 /* NetworkServices */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		095CB7BB28761C81002598A8 /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7BC28761C8F002598A8 /* Networking */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		095CB7BC28761C8F002598A8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7C328761CCC002598A8 /* Base */,
+				095CB7BD28761C98002598A8 /* API Connection */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		095CB7BD28761C98002598A8 /* API Connection */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7BE28761CAC002598A8 /* NetworkAPI.swift */,
+				095CB7C028761CBD002598A8 /* NetworkRequest.swift */,
+			);
+			path = "API Connection";
+			sourceTree = "<group>";
+		};
+		095CB7C328761CCC002598A8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7C428761CDC002598A8 /* BaseAPI.swift */,
+				095CB7C628761CEA002598A8 /* TargetType.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		095CB7C828761CF4002598A8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7C928761D18002598A8 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		095CB7CB28761DA4002598A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7D128761E90002598A8 /* Category.swift */,
+				095CB7D328761E9E002598A8 /* CategoryItem.swift */,
+				095CB7D528761EAC002598A8 /* Combo.swift */,
+				095CB7D728761EB7002598A8 /* Product.swift */,
+				095CB7D928761EC4002598A8 /* DummyData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		095CB7CC28761DAC002598A8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7DC28761F5C002598A8 /* ProductDetails */,
+				095CB7DB28761F52002598A8 /* HomeScreen */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		095CB7DB28761F52002598A8 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7E028761F77002598A8 /* ViewModel */,
+				095CB7DF28761F71002598A8 /* View */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		095CB7DC28761F5C002598A8 /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7DE28761F6A002598A8 /* ViewModel */,
+				095CB7DD28761F64002598A8 /* View */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		095CB7DD28761F64002598A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7EE287621A2002598A8 /* Cell.swift */,
+				095CB7F0287621C3002598A8 /* CellWithRadioButton.swift */,
+				095CB7F2287621EB002598A8 /* ChickenSelection.swift */,
+				095CB7F4287621FF002598A8 /* Drinks.swift */,
+				095CB7F628762211002598A8 /* IngrediansCell.swift */,
+				095CB7F82876222B002598A8 /* MealSizes.swift */,
+				095CB7FA28762246002598A8 /* ProductDetails.swift */,
+				095CB7FC2876225C002598A8 /* ProductInfo.swift */,
+				095CB7FE2876226E002598A8 /* QuantityStepper.swift */,
+				095CB8002876228C002598A8 /* Sandwiches.swift */,
+				095CB8022876229D002598A8 /* SandwichesNavigationBar.swift */,
+				095CB804287622B7002598A8 /* Sauces.swift */,
+				095CB806287622C9002598A8 /* Sides.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		095CB7DE28761F6A002598A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7EC28762181002598A8 /* ProductDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		095CB7DF28761F71002598A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7E328761FC6002598A8 /* CategoryCell.swift */,
+				095CB7E528761FD8002598A8 /* HomeScreen.swift */,
+				095CB7E728761FE9002598A8 /* CategoryItemsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		095CB7E028761F77002598A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				095CB7E128761FB3002598A8 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		17B30730B831B081DF03884F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FC89FA810D9BFC6D7568AA5 /* Pods-PS_Task.debug.xcconfig */,
+				A07843AE0C5E8D4A80E0658D /* Pods-PS_Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C13055E2A4BC7EA454CA802C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62147904FD51EADFC871E1A6 /* Pods_PS_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +298,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 095CB7B328761A9F002598A8 /* Build configuration list for PBXNativeTarget "PS_Task" */;
 			buildPhases = (
+				ED2B7A8AD81AF949B2BD552E /* [CP] Check Pods Manifest.lock */,
 				095CB7A128761A9A002598A8 /* Sources */,
 				095CB7A228761A9A002598A8 /* Frameworks */,
 				095CB7A328761A9A002598A8 /* Resources */,
+				7F3355F9364C186AE0943780 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PS_Task;
+			packageProductDependencies = (
+				095CB7EA287620CA002598A8 /* QGrid */,
+			);
 			productName = PS_Task;
 			productReference = 095CB7A528761A9A002598A8 /* PS_Task.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +340,9 @@
 				Base,
 			);
 			mainGroup = 095CB79C28761A9A002598A8;
+			packageReferences = (
+				095CB7E9287620CA002598A8 /* XCRemoteSwiftPackageReference "QGrid" */,
+			);
 			productRefGroup = 095CB7A628761A9A002598A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,13 +364,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7F3355F9364C186AE0943780 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PS_Task/Pods-PS_Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PS_Task/Pods-PS_Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PS_Task/Pods-PS_Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED2B7A8AD81AF949B2BD552E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PS_Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		095CB7A128761A9A002598A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095CB7F3287621EB002598A8 /* ChickenSelection.swift in Sources */,
+				095CB7DA28761EC4002598A8 /* DummyData.swift in Sources */,
+				095CB7C728761CEA002598A8 /* TargetType.swift in Sources */,
+				095CB7E828761FE9002598A8 /* CategoryItemsCell.swift in Sources */,
 				095CB7AB28761A9A002598A8 /* ContentView.swift in Sources */,
+				095CB7E428761FC6002598A8 /* CategoryCell.swift in Sources */,
+				095CB807287622C9002598A8 /* Sides.swift in Sources */,
+				095CB7F528762200002598A8 /* Drinks.swift in Sources */,
+				095CB7EF287621A2002598A8 /* Cell.swift in Sources */,
 				095CB7A928761A9A002598A8 /* PS_TaskApp.swift in Sources */,
+				095CB7ED28762181002598A8 /* ProductDetailsViewModel.swift in Sources */,
+				095CB7F92876222B002598A8 /* MealSizes.swift in Sources */,
+				095CB7C128761CBD002598A8 /* NetworkRequest.swift in Sources */,
+				095CB7D628761EAC002598A8 /* Combo.swift in Sources */,
+				095CB7FD2876225C002598A8 /* ProductInfo.swift in Sources */,
+				095CB7F1287621C3002598A8 /* CellWithRadioButton.swift in Sources */,
+				095CB805287622B7002598A8 /* Sauces.swift in Sources */,
+				095CB8012876228C002598A8 /* Sandwiches.swift in Sources */,
+				095CB7D828761EB7002598A8 /* Product.swift in Sources */,
+				095CB7D428761E9E002598A8 /* CategoryItem.swift in Sources */,
+				095CB8032876229D002598A8 /* SandwichesNavigationBar.swift in Sources */,
+				095CB7E228761FB3002598A8 /* HomeViewModel.swift in Sources */,
+				095CB7CA28761D18002598A8 /* Constants.swift in Sources */,
+				095CB7F728762211002598A8 /* IngrediansCell.swift in Sources */,
+				095CB7E628761FD8002598A8 /* HomeScreen.swift in Sources */,
+				095CB7BF28761CAC002598A8 /* NetworkAPI.swift in Sources */,
+				095CB7FF2876226E002598A8 /* QuantityStepper.swift in Sources */,
+				095CB7C528761CDC002598A8 /* BaseAPI.swift in Sources */,
+				095CB7FB28762246002598A8 /* ProductDetails.swift in Sources */,
+				095CB7D228761E90002598A8 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +563,7 @@
 		};
 		095CB7B428761A9F002598A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC89FA810D9BFC6D7568AA5 /* Pods-PS_Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -269,6 +572,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PS_Task/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PS-Task-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -289,6 +593,7 @@
 		};
 		095CB7B528761A9F002598A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07843AE0C5E8D4A80E0658D /* Pods-PS_Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +602,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PS_Task/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PS-Task-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +643,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		095CB7E9287620CA002598A8 /* XCRemoteSwiftPackageReference "QGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Q-Mobile/QGrid";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		095CB7EA287620CA002598A8 /* QGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 095CB7E9287620CA002598A8 /* XCRemoteSwiftPackageReference "QGrid" */;
+			productName = QGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 095CB79D28761A9A002598A8 /* Project object */;
 }
